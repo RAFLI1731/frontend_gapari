@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div style="margin-left: 25%; margin-right: 25%;">
-                            <q-btn label="LOGIN" style="color: white; background-color: #2A5870; width: 100%; border-radius: 10px; margin-bottom:10px"/>
+                            <q-btn label="LOGIN" style="color: white; background-color: #2A5870; width: 100%; border-radius: 10px; margin-bottom:10px" :to="{ name: 'dashboard' }"/>
                             <q-btn label="REGISTRASI" style="color: #2A5870; background-color: white; width: 100%; border-radius: 10px" :to="{ name: 'registerGapari' }"/>
                         </div>
                     </div>
