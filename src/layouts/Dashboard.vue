@@ -8,7 +8,9 @@
                         indicator-color="#588157"
                         style="margin-right: 7%"
                         >
-                        <q-tab name="tab1" label="Beranda" class="jarak2"/>
+                        <q-item :to="{ name: 'dash' }" class="text-white jarak2" flat>
+                            <q-tab name="tab1" label="Beranda"/>
+                        </q-item>
                         <q-tab name="tab2" label="Akuntansi" class="jarak2"/> <!-- FITUR AKUNTANSI dimasukkan disini -->
                         <a href="https://api.whatsapp.com/send?phone=6281318608323" style="color: white; text-decoration: none">
                             <q-tab name="tab3" label="kontak"/>
